@@ -77,6 +77,18 @@ Change the standard button text in the application.
 
 ## `Elevated Session Customisation`
 
+### Enable Time List
+- **Availability:** `Basic` `Premium`
+- **Type:** boolean
+- **default:** `false` 
+
+Enables the option for the application to display a choice of `times`. Configure `Sessiontime` to customise default options. 
+
+```xml
+<key>Enabletimelist</key>
+<true/>
+```
+
 ### Session Time
 - **Availability:** `Basic` `Premium`
 - **Type:** String
@@ -100,3 +112,39 @@ Change the choice of times available if `Enabletimelist` is `True`.
 <key>Sessiontime</key>
 <string>3600</string>
 ```
+
+### reasons
+- **Availability:** `Basic` `Premium`
+- **Type:** String
+- **default:** `Install Application` `enter here` 
+
+Changes the reasons the user selectes within Elevate24 before they are allowed to Elevate. 
+
+```xml
+<key>reasons</key>
+<array>
+<string>Install Application</string>
+<string>Customise Preferences</string>
+</array>
+```
+
+### Enable Reason
+- **Availability:** `Basic` `Premium`
+- **Type:** Boolean
+- **default:** `false` 
+
+Will replace `reasons` with a free text entry box. 
+
+```xml
+<key>enableReason</key>
+<true/>
+```
+
+
+
+---
+
+
+
+## `Security Settings`
+
