@@ -82,7 +82,19 @@ Change the standard button text in the application.
 - **Type:** String
 - **default:** `3600` seconds
 
-Change the length of time the user will be elevated if `Enabletimelist` is false. These times should be listed in seconds.
+Change the length of time the user will be elevated if `Enabletimelist` is `false`. These times should be listed in seconds.
+
+```xml
+<key>Sessiontime</key>
+<string>3600</string>
+```
+
+### times
+- **Availability:** `Basic` `Premium`
+- **Type:** String
+- **default:** `1800` `3600` `7200` seconds
+
+Change the choice of times available if `Enabletimelist` is `True`.
 
 ```xml
 <key>Sessiontime</key>
