@@ -1,11 +1,12 @@
 # Configuration Keys for Elevate24
 
-## License Configuration
-
+## License Configuration 
 ### License Keys
-(String, `Premium`)
+- **Availability:** `Premium`
+- **Type:** String
 
-These keys are required to get access to premium functionality. The license is found with the Elevate24 Portal via Jigsaw24. 
+> [!NOTE]
+> These keys are required to get access to premium functionality. The license is found with the Elevate24 Portal via Jigsaw24. 
 
 ```xml
 <key>LicenseKey</key>
@@ -16,71 +17,95 @@ These keys are required to get access to premium functionality. The license is f
 <string>123456789</string>
 ```
 
+
+
+
+
 ---
 
-## `Branding`
+
+
+
+
+
+## Branding
 ### Icon Path 
 - **Availability:** `Premium`
 - **Type:** String
-- **default:** `Elevate24 Icon`
+- **Default:** `Elevate24 Icon`
  
-Change the standard Elevate24 icon in the application. 
+> [!NOTE]
+> Change the standard Elevate24 icon in the application. 
 ```xml
 <key>iconPath</key>
 <string>/tmp/icon.png</string>
 ```
+---
 ### Hide Logo
 - **Availability:** `Premium`
 - **Type:** Boolean
-- **default:** `false`
+- **Default:** `false`
 
-Hide the "Powered by Jigsaw24 Logo" in the bottom right handside of the application.
+> [!NOTE]
+> Hide the "Powered by Jigsaw24 Logo" in the bottom right handside of the application.
 ```xml
 <key>iconPath</key>
 <true/>
 ```
+---
 ### Heading
 - **Availability:** `Basic` `Premium`
 - **Type:** String
-- **default:** `Elevate24`
+- **Default:** `Elevate24`
 
-Change the standard header in the application. Always displays in bold. 
+> [!NOTE]
+>Change the standard header in the application. Always displays in bold. 
 ```xml
 <key>heading</key>
 <string>Elevate24</string>
 ```
+---
 ### Message
 - **Availability:** `Basic` `Premium`
 - **Type:** String
-- **default:** `Elevate24`
+- **Default:** `Elevate24`
 
-Change the standard messaging in the application. Use '\\n' for spacing lines
+> [!NOTE]
+>Change the standard messaging in the application. Use '\\n' for spacing lines
 ```xml
 <key>message</key>
 <string>Use of admin accounts is recorded for security compliance.
 \n\n Select why you require admin privileges\n and select how long for</string>
 ```
+---
 ### Main Button
 - **Availability:** `Premium`
 - **Type:** String
-- **default:** `Elevate`
+- **Default:** `Elevate`
 
-Change the standard button text in the application. 
+> [!NOTE]
+>Change the standard button text in the application. 
 
 ```xml
 <key>mainbutton</key>
 <string>Elevate</string>
 ```
 
+
+
+
 ---
 
 
-## `Elevated Session Customisation`
+
+
+
+## Elevated Session Customisation
 
 ### Enable Time List
 - **Availability:** `Basic` `Premium`
 - **Type:** boolean
-- **default:** `false` 
+- **Default:** `false` 
 
 Enables the option for the application to display a choice of `times`. Configure `Sessiontime` to customise default options. 
 
@@ -92,7 +117,7 @@ Enables the option for the application to display a choice of `times`. Configure
 ### Session Time
 - **Availability:** `Basic` `Premium`
 - **Type:** String
-- **default:** `3600` seconds
+- **Default:** `3600` seconds
 
 Change the length of time the user will be elevated if `Enabletimelist` is `false`. These times should be listed in seconds.
 
@@ -104,7 +129,7 @@ Change the length of time the user will be elevated if `Enabletimelist` is `fals
 ### times
 - **Availability:** `Basic` `Premium`
 - **Type:** String
-- **default:** `1800` `3600` `7200` seconds
+- **Default:** `1800` `3600` `7200` seconds
 
 Change the choice of times available if `Enabletimelist` is `True`.
 
@@ -116,7 +141,7 @@ Change the choice of times available if `Enabletimelist` is `True`.
 ### reasons
 - **Availability:** `Basic` `Premium`
 - **Type:** String
-- **default:** `Install Application` `enter here` 
+- **Default:** `Install Application` `enter here` 
 
 Changes the reasons the user selectes within Elevate24 before they are allowed to Elevate. 
 
@@ -131,7 +156,7 @@ Changes the reasons the user selectes within Elevate24 before they are allowed t
 ### Enable Reason
 - **Availability:** `Basic` `Premium`
 - **Type:** Boolean
-- **default:** `false` 
+- **Default:** `false` 
 
 Will replace `reasons` with a free text entry box. 
 
@@ -146,5 +171,28 @@ Will replace `reasons` with a free text entry box.
 
 
 
-## `Security Settings`
+## Security Settings
+### Standard at Load
+- **Availability:** `Basic` `Premium`
+- **Type:** Boolean
+- **Default:** `false` 
+
+Will remove admin rights when the application first launches.
+
+```xml
+<key>standardatLoad</key>
+<true/>
+```
+
+### Demote all admin
+- **Availability:** `Basic` `Premium`
+- **Type:** Boolean
+- **Default:** `false` 
+
+Enables all admin users being demoted to standard users when the current elevation period ends.
+
+```xml
+<key>demoteAllAdmin</key>
+<true/>
+```
 
