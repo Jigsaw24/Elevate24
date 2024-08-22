@@ -1,12 +1,18 @@
 # Elevate24
 
-A Privileged Access Management solution to increase visibility and comply with Cyber Essentials requirements.
+A macOS Privileged Access Management solution to increase visibility and comply with Cyber Essentials requirements.
 
 https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24
 
 ![Elevate24 Icon](https://d8p1x3h4xd5gq.cloudfront.net/59822132ca753d719145cc4c/public/64074a3d386af8747528ca61.png) 
+
+
+
+
 ---
 ## Documentation
+- [Deployment](./docs/Install%20and%20deployment.md)
+
 - [Documentation Folder](./docs)
 
 - [Secondary Account Congifuration (CE Compliant)](https://github.com/Jigsaw24/Elevate24/blob/main/docs/Configuration%20Keys.md#secondary-account-configuration)
