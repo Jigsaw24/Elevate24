@@ -308,7 +308,10 @@ For example, Joe.Bloggs-adm
 - **Default:** `false` 
 
 > [!NOTE]
-> Enables the use of a custom complex password when using a Secondary Account. `userElevateAdmin` must be set to `true`.
+> Enables the use of a custom complex password when using a Secondary Account. `userElevateAdmin` must be set to `true`. 
+
+> [!IMPORTANT]
+>Configuring the password requires the amount of each character. For example, `PasswordUppercase` with a value of `5` would create `5` Uppercase characters. 
 
 ```xml
 <key>ComplexPassword</key>
@@ -329,10 +332,6 @@ For example, Joe.Bloggs-adm
 ```xml
 <key>PasswordSymbols</key>
 <string>5</string>
-```
-```xml
-<key>showAdminPasswordGrace</key>
-<integer>30</integer>
 ```
 ---
 ### Use current username as admin
