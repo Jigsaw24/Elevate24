@@ -1,5 +1,9 @@
 # Configuration Keys for Elevate24
 
+The Keys included here are for the main Elevate24 Application. If you need to configure the Endpoint Security Extension please visit [HERE](/docs/Endpoint%20Security%20Configuration%20Keys.md)
+
+- **Preference Domain:** com.jigsaw24.Elevate24
+
 ## License Configuration 
 ### License Keys
 - **Availability:** Premium
@@ -247,7 +251,33 @@
 <true/>
 ```
 
+---
+### Enable Apple Authentication
+- **Availability:** Premium
+- **Type:** Boolean
+- **Default:** `false` 
 
+> [!NOTE]
+> Prompts the user for their local Apple credentials or TouchID (if enabled on device) before allowing elevation. 
+
+```xml
+<key>enableAppleAuth</key>
+<true/>
+```
+
+---
+### Enable OTP
+- **Availability:** Premium
+- **Type:** Boolean
+- **Default:** `false` 
+
+> [!NOTE]
+> Enables the use of authenticator applications such as Google Auth or Microsoft Auth, prompting for a valid session token 
+
+```xml
+<key>GoogleAuth</key>
+<true/>
+```
 
 ---
 

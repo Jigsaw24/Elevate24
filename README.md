@@ -1,17 +1,23 @@
 # Elevate24
+A macOS Privileged Access Management solution to increase visibility and comply with Cyber Essentials requirements. 
 
-A Privileged Access Management solution to increase visibility and comply with Cyber Essentials requirements.
+Elevate24 comes in **basic** and **premium** mode. To get started, simply install the latest release and arrange a demo to learn more below.
 
-https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24
+### [Arrange a demo](https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24)
 
-![Elevate24 Icon](https://d8p1x3h4xd5gq.cloudfront.net/59822132ca753d719145cc4c/public/64074a3d386af8747528ca61.png) 
+
+![Elevate24 Icon](https://store-images.s-microsoft.com/image/apps.55342.06d325c2-3b22-4ebd-a880-9fa06604d981.afc39e71-2bac-4a37-b781-314e1a0db7d0.56fc1918-1617-4ed3-9fad-6e56aaee391d) 
+
+
 ---
 ## Documentation
+- [Deployment](./docs/Install%20and%20deployment.md)
+
 - [Documentation Folder](./docs)
 
-- [Secondary Account Congifuration (CE Compliant)](https://github.com/Jigsaw24/Elevate24/blob/main/docs/Configuration%20Keys.md#secondary-account-configuration)
+- [Secondary Account Configuration (CE Compliant)](https://github.com/Jigsaw24/Elevate24/blob/main/docs/Configuration%20Keys.md#secondary-account-configuration)
 
-- [Reporting Configuration](./docs/Reporting%20Configuration%20Keys.md)
+- [Reporting Configuration](/docs/)
 
 ---
 ## Marketplace Links
