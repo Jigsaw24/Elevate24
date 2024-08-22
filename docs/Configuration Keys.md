@@ -32,7 +32,7 @@
 ### Icon Path 
 - **Availability:** Premium
 - **Type:** String
-- **Default:** `Elevate24 Icon`
+- **Default:** Elevate24 icon
  
 > [!NOTE]
 > Change the standard Elevate24 icon in the application. 
@@ -68,7 +68,6 @@
 ### Message
 - **Availability:** Basic & Premium
 - **Type:** String
-- **Default:** `Elevate24`
 
 > [!NOTE]
 >Change the standard messaging in the application. Use '\\n' for spacing lines
@@ -104,7 +103,7 @@
 
 ### Enable Time List
 - **Availability:** Basic & Premium
-- **Type:** boolean
+- **Type:** Boolean
 - **Default:** `false` 
 
 > [!NOTE]
@@ -115,7 +114,7 @@
 <true/>
 ```
 ---
-### Session Time
+### Enforced session Time
 - **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `3600` seconds
@@ -128,7 +127,7 @@
 <string>3600</string>
 ```
 ---
-### times
+### Choice of times
 - **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `1800` `3600` `7200` seconds
@@ -141,10 +140,9 @@
 <string>3600</string>
 ```
 ---
-### reasons
+### Choice of reasons
 - **Availability:** Basic & Premium
 - **Type:** String
-- **Default:** `Install Application` `enter here` 
 
 > [!NOTE]
 > Changes the reasons the user selectes within Elevate24 before they are allowed to Elevate. 
@@ -209,7 +207,7 @@
 
 ### Demote Exclusions
 - **Availability:** Basic & Premium
-- **Type:** string
+- **Type:** String
 
 > [!NOTE]
 > Will exclude accounts from being demoted when the application quits or ends the elevated session. This is strongly recommended if the business uses a standard administrator account across all devices. 
@@ -223,7 +221,7 @@
 ```
 ---
 
-### demoteAllAdminQuit
+### Demote account on quit / logout
 - **Availability:** Basic & Premium
 - **Type:** Boolean
 - **Default:** `false` 
@@ -287,7 +285,7 @@ For example, Joe.Bloggs-adm
 
 ### Use current username as admin
 - **Availability:** Premium
-- **Type:** string
+- **Type:** String
 - **Default:** `false` 
 
 > [!NOTE]
@@ -304,7 +302,7 @@ For example, Joe.Bloggs-adm
 
 ### Complex Password for Secondary Account
 - **Availability:** Premium
-- **Type:** string
+- **Type:** String
 - **Default:** `false` 
 
 > [!NOTE]
