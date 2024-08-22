@@ -14,14 +14,6 @@
         <string>Update Application</string>
         <string>Uninstall Application</string>
         <string>Customise System Settings</string>
-        <string>Troubleshoot / View Log</string>
-        <string>Customise / Flush Network Property</string>
-        <string>Remove Files / Directories On Mass</string>
-        <string>Devs - Update Tool / Dependency</string>
-        <string>Devs - Uninstall Tool / Dependency</string>
-        <string>Devs - Configure Tool / Dependency</string>
-        <string>Devs - Configure File / Directory Property</string>
-        <string>Devs - Run / Test Executable</string>
     </array>
     <key>enableReason</key>
     <false/>
