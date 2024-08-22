@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>message</key>
+    <string>Use of admin accounts is audited. \nPlease select why you require \nadmin rights?</string>
+    <key>Sessiontime</key>
+    <string>1800</string>
+    <key>Enabletimelist</key>
+    <false/>
+    <key>reasons</key>
+    <array>
+        <string>Install Application</string>
+        <string>Update Application</string>
+        <string>Uninstall Application</string>
+        <string>Customise System Settings</string>
+        <string>Troubleshoot / View Log</string>
+        <string>Customise / Flush Network Property</string>
+        <string>Remove Files / Directories On Mass</string>
+        <string>Devs - Update Tool / Dependency</string>
+        <string>Devs - Uninstall Tool / Dependency</string>
+        <string>Devs - Configure Tool / Dependency</string>
+        <string>Devs - Configure File / Directory Property</string>
+        <string>Devs - Run / Test Executable</string>
+    </array>
+    <key>enableReason</key>
+    <false/>
+    <key>standardatLoad</key>
+    <true/>
+    <key>demoteAllAdmin</key>  
+    <true/>
+    <key>demoteExclusions</key> 
+    <array> 
+        <string>ExampleAdmin</string> 
+        <string>JamfAdmin</string> 
+    </array>
+    <key>demoteAllAdminQuit</key>
+    <true/>
+    <key>killterminalsessions</key>
+    <true/>
+  </dict>
+</plist>
