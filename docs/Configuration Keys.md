@@ -2,7 +2,7 @@
 
 ## License Configuration 
 ### License Keys
-- **Availability:** `Premium`
+- **Availability:** Premium
 - **Type:** String
 
 > [!NOTE]
@@ -30,7 +30,7 @@
 
 ## Branding
 ### Icon Path 
-- **Availability:** `Premium`
+- **Availability:** Premium
 - **Type:** String
 - **Default:** `Elevate24 Icon`
  
@@ -42,7 +42,7 @@
 ```
 ---
 ### Hide Logo
-- **Availability:** `Premium`
+- **Availability:** Premium
 - **Type:** Boolean
 - **Default:** `false`
 
@@ -54,7 +54,7 @@
 ```
 ---
 ### Heading
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `Elevate24`
 
@@ -66,7 +66,7 @@
 ```
 ---
 ### Message
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `Elevate24`
 
@@ -79,7 +79,7 @@
 ```
 ---
 ### Main Button
-- **Availability:** `Premium`
+- **Availability:** Premium
 - **Type:** String
 - **Default:** `Elevate`
 
@@ -103,47 +103,51 @@
 ## Elevated Session Customisation
 
 ### Enable Time List
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** boolean
 - **Default:** `false` 
 
-Enables the option for the application to display a choice of `times`. Configure `Sessiontime` to customise default options. 
+> [!NOTE]
+> Enables the option for the application to display a choice of `times`. Configure `Sessiontime` to customise default options. 
 
 ```xml
 <key>Enabletimelist</key>
 <true/>
 ```
-
+---
 ### Session Time
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `3600` seconds
 
-Change the length of time the user will be elevated if `Enabletimelist` is `false`. These times should be listed in seconds.
+> [!NOTE]
+> Change the length of time the user will be elevated if `Enabletimelist` is `false`. These times should be listed in seconds.
 
 ```xml
 <key>Sessiontime</key>
 <string>3600</string>
 ```
-
+---
 ### times
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `1800` `3600` `7200` seconds
 
-Change the choice of times available if `Enabletimelist` is `True`.
+> [!NOTE]
+> Change the choice of times available if `Enabletimelist` is `True`.
 
 ```xml
 <key>Sessiontime</key>
 <string>3600</string>
 ```
-
+---
 ### reasons
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** String
 - **Default:** `Install Application` `enter here` 
 
-Changes the reasons the user selectes within Elevate24 before they are allowed to Elevate. 
+> [!NOTE]
+> Changes the reasons the user selectes within Elevate24 before they are allowed to Elevate. 
 
 ```xml
 <key>reasons</key>
@@ -152,13 +156,14 @@ Changes the reasons the user selectes within Elevate24 before they are allowed t
 <string>Customise Preferences</string>
 </array>
 ```
-
+---
 ### Enable Reason
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** Boolean
 - **Default:** `false` 
 
-Will replace `reasons` with a free text entry box. 
+> [!NOTE]
+> Will replace `reasons` with a free text entry box. 
 
 ```xml
 <key>enableReason</key>
@@ -173,26 +178,173 @@ Will replace `reasons` with a free text entry box.
 
 ## Security Settings
 ### Standard at Load
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** Boolean
 - **Default:** `false` 
 
-Will remove admin rights when the application first launches.
+> [!NOTE]
+> Will remove admin rights when the application first launches.
 
 ```xml
 <key>standardatLoad</key>
 <true/>
 ```
-
+---
 ### Demote all admin
-- **Availability:** `Basic` `Premium`
+- **Availability:** Basic & Premium
 - **Type:** Boolean
 - **Default:** `false` 
 
-Enables all admin users being demoted to standard users when the current elevation period ends.
+> [!NOTE]
+> Enables all admin users being demoted to standard users when the current elevation period ends.
+
+> [!WARNING]
+> This will demote all administrator accounts on your device. Please use `demoteExclusions` to set exclusions for any orgnisational administrator accounts you may have.
 
 ```xml
 <key>demoteAllAdmin</key>
 <true/>
 ```
+---
 
+### Demote Exclusions
+- **Availability:** Basic & Premium
+- **Type:** string
+
+> [!NOTE]
+> Will exclude accounts from being demoted when the application quits or ends the elevated session. This is strongly recommended if the business uses a standard administrator account across all devices. 
+
+```xml
+<key>demoteExclusions</key>
+<array>
+<string>CorpAdmin</string>
+<string>ACMEAdmin</string>
+</array>
+```
+---
+
+### demoteAllAdminQuit
+- **Availability:** Basic & Premium
+- **Type:** Boolean
+- **Default:** `false` 
+
+> [!NOTE]
+> Will demote all admin accounts from admin when the application quits or the laptop is restarted. 
+
+```xml
+<key>demoteAllAdminQuit</key>
+<true/>
+```
+---
+### End Terminal Sessions
+- **Availability:** Basic & Premium
+- **Type:** Boolean
+- **Default:** `false` 
+
+> [!NOTE]
+> Add More Info! 
+
+```xml
+<key>killterminalsessions</key>
+<true/>
+```
+
+
+
+---
+
+
+
+
+## Secondary Account Configuration
+### Temporary Secondary Account
+- **Availability:** Premium
+- **Type:** Boolean
+- **Default:** `false` 
+
+> [!NOTE]
+> Will create a temporary account instead of Elevating the primary account. A temporary password will also be supplied upon elevation. 
+
+```xml
+<key>userElevateAdmin</key>
+<true/>
+```
+---
+### Use current username as admin
+- **Availability:** Premium
+- **Type:** Boolean
+- **Default:** `false` 
+
+> [!NOTE]
+> If `userElevateAdmin` Key is set to `true` and this key is also set as `true`, the temporary account will use the current logged in users username as part of the account naming. 
+For example, Joe.Bloggs-adm
+
+```xml
+<key>useCurrentUserAsAdmin</key>
+<true/>
+```
+---
+
+### Use current username as admin
+- **Availability:** Premium
+- **Type:** string
+- **Default:** `false` 
+
+> [!NOTE]
+> If `useCurrentUserAdmin` is set to `false`, this key allows the ability to create a temporary admin account with a standard name. 
+
+> [!TIP]
+> This is more useful if you require setting automatic permission changes. However, please do so at your own risk.
+
+```xml
+<key>adminUserName</key>
+<string>adminName</string>
+```
+---
+
+### Complex Password for Secondary Account
+- **Availability:** Premium
+- **Type:** string
+- **Default:** `false` 
+
+> [!NOTE]
+> Enables the use of a custom complex password when using a Secondary Account. `userElevateAdmin` must be set to `true`.
+
+```xml
+<key>ComplexPassword</key>
+<true/>
+```
+```xml
+<key>PasswordUppercase</key>
+<string>5</string>
+```
+```xml
+<key>PasswordLowercase</key>
+<string>5</string>
+```
+```xml
+<key>PasswordNumbers</key>
+<string>5</string>
+```
+```xml
+<key>PasswordSymbols</key>
+<string>5</string>
+```
+```xml
+<key>showAdminPasswordGrace</key>
+<integer>30</integer>
+```
+---
+### Use current username as admin
+- **Availability:** Premium
+- **Type:** integer
+- **Default:** `0` 
+
+> [!NOTE]
+> Set the number of seconds after elevation or last showing the password that the password will be shown. (Max 45 seconds)
+
+```xml
+<key>showAdminPasswordGrace</key>
+<integer>30</integer>
+```
+---
