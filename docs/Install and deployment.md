@@ -2,6 +2,9 @@
 
 Elevate24 install is a .pkg file. Simply run the installer or deploy using your MDM of choice. 
 
+>[!IMPORTANT]
+>Add ESF
+
 ---
 
 ### Jamf Pro

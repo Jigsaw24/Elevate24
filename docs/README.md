@@ -1,9 +1,22 @@
-## Documentation
+# Documentation
 
-- [Install and Deployment](/docs/Install%20and%20deployment.md)
+## Deploy
 
-- [Main Configuration](/docs/Configuration%20Keys.md)
+- [Install and deployment](/docs/Install%20and%20deployment.md)
 
-- [Reporting Configuration](/docs/Reporting%20Configuration%20Keys.md)
+## Configure
 
-- [Template Profiles](/Template%20Profiles/)
+- [Elevate24 main configuration](/docs/Configuration%20Keys.md)
+
+- [Endpoint security main configuration](/docs/Endpoint%20Security%20Configuration%20Keys.md)
+
+## Reporting
+
+- [Elevate24 app reporting cnfiguration](/docs/Elevate24%20Reporting%20Configuration%20Keys.md)
+
+- [Endpoint security reporting cnfiguration](/docs/Elevate24%20Reporting%20Configuration%20Keys.md)
+
+## Templates
+
+- [Template profiles](/Template%20Profiles/)
+

@@ -1,5 +1,9 @@
 # Configuration Keys for Elevate24
 
+The Keys included here are for the main Elevate24 Application. If you need to configure the Endpoint Security Extension please visit [HERE](/docs/Endpoint%20Security%20Configuration%20Keys.md)
+
+- **Preference Domain:** com.jigsaw24.Elevate24
+
 ## License Configuration 
 ### License Keys
 - **Availability:** Premium

@@ -1,7 +1,7 @@
 # Elevate24
 A macOS Privileged Access Management solution to increase visibility and comply with Cyber Essentials requirements. 
 
-Elevate24 comes in `basic` and `premium` mode. To get started, simply install the latest release and get arrange a demo to learn more below.
+Elevate24 comes in **basic** and **premium** mode. To get started, simply install the latest release and arrange a demo to learn more below.
 
 ### [Arrange a demo](https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24)
 

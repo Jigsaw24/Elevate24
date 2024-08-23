@@ -5,6 +5,9 @@ For Elevate24 Premium customers, you can send data from the Elevate24 applicatio
 > [!IMPORTANT]
 > This is all done from the app, on device and does not go through or visable by Jigsaw24. 
 
+> [!IMPORTANT]
+> These settings configure reporting for the Elevate24 Application only. If you are a premium customer and want to recieve data on what actions have taken place whilst elevated visit [here](/docs/Endpoint%20Secuity%20Reporting%20Configuration%20Keys.md)
+
 ## SIEM 
 
 [!NOTE] add information here
