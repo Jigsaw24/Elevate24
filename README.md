@@ -17,7 +17,7 @@ Elevate24 comes in **basic** and **premium** mode. To get started, simply instal
 
 - [Secondary Account Congifuration (CE Compliant)](https://github.com/Jigsaw24/Elevate24/blob/main/docs/Configuration%20Keys.md#secondary-account-configuration)
 
-- [Reporting Configuration](./docs/Reporting%20Configuration%20Keys.md)
+- [Reporting Configuration](/docs/)
 
 ---
 ## Marketplace Links
