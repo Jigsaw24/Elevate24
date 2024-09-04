@@ -6,6 +6,6 @@
 
 - [Getting started with Temporary Account and Cyber Essentials](/Template%20Profiles/TempAccountExample-com.jigsaw24.Elevate24%20copy.plist)
 
-- [Getting started with Endpoint Security Extension]()
+- [Getting started with Elevate24 Session Reporting]()
 
 - [Jamf Custom Schema](/Template%20Profiles/com.jigsaw24.Elevate24.json)
