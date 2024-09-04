@@ -12,9 +12,9 @@
 
 ## Reporting
 
-- [Elevate24 app reporting cnfiguration](/docs/Elevate24%20Reporting%20Configuration%20Keys.md)
+- [Elevate24 app reporting configuration](/docs/Elevate24%20Reporting%20Configuration%20Keys.md)
 
-- [Endpoint security reporting cnfiguration](/docs/Elevate24%20Reporting%20Configuration%20Keys.md)
+- [Endpoint security reporting configuration](/docs/Elevate24%20Reporting%20Configuration%20Keys.md)
 
 ## Templates
 
