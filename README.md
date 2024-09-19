@@ -4,6 +4,7 @@ Elevate24 is a macOS Privileged Access Management solution that provides IT team
 Elevate24 is available in **Basic** and **Premium** modes. The **Basic** mode works out of the box and does not require a license. To get started, simply install Elevate24 and follow the Getting Started link below.
 
 ### [Getting Started](/Documentation/README.md)
+### [Watch Video](https://www.youtube.com/watch?v=J8nJtw9G3JI)
 
 ---
 
