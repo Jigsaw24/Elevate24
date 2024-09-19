@@ -1,7 +1,13 @@
 # Elevate24
-A macOS Privileged Access Management solution to increase visibility and comply with Cyber Essentials requirements. 
+Elevate24 is a macOS Privileged Access Management solution that provides IT teams with visibility and monitoring capabilities to ensure compliance. It allows users to request limited privileges for a specific period, improving security and end-user experience.
 
-Elevate24 comes in **basic** and **premium** mode. To get started, simply install the latest release and arrange a demo to learn more below.
+Elevate24 is available in **Basic** and **Premium** modes. The **Basic** mode works out of the box and does not require a license. To get started, simply install Elevate24 and follow the Getting Started link below.
+
+### [Getting Started](/Documentation/README.md)
+
+---
+
+If you are interested to learn more about **Premium** mode, arrange a demo with the Jigsaw24 team below:
 
 ### [Arrange a demo](https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24)
 
@@ -11,16 +17,15 @@ Elevate24 comes in **basic** and **premium** mode. To get started, simply instal
 
 ---
 ## Documentation
-- [Deployment](./docs/Install%20and%20deployment.md)
 
-- [Documentation Folder](./docs)
+- [Documentation Folder](/Documentation/)
 
-- [Secondary Account Configuration (CE Compliant)](https://github.com/Jigsaw24/Elevate24/blob/main/docs/Configuration%20Keys.md#secondary-account-configuration)
+- [Secondary Account Configuration (Cyber Essentials Compliant)](https://github.com/Jigsaw24/Elevate24/blob/main/Documentation/Elevate24%20-%20Configuration%20Keys.md#secondary-account-configuration)
 
-- [Reporting Configuration](/docs/)
+- [Reporting Configuration](/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
 
 ---
 ## Marketplace Links
 - [Jamf Marketplace](https://marketplace.jamf.com/details/elevate24)
-- [Kandji Auto Apps]()
+- [Kandji Auto Apps](https://support.kandji.io/support/solutions/articles/72000560362-auto-apps-overview)
 - [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/jigsaw24.elevate24?tab=overview)

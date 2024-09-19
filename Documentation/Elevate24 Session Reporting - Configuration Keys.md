@@ -1,6 +1,5 @@
-# Configuration Keys for Elevate24 Security Extension
-
-The Keys included here are for the main Elevate24 Endpoint Security Extension. If you need to configure the Application please visit [HERE](/docs/Elevate24%20Configuration%20Keys.md)
+# Configuration Keys for Elevate24 Session Reporting
+The Keys included here are for the main Elevate24 Endpoint Security Extension. If you need to configure the Application please visit [HERE](/Documentation/Elevate24%20-%20Configuration%20Keys.md)
 
 - **Preference Domain:** com.jigsaw24.Elevate24SecurityExtension
 

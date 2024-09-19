@@ -1,9 +1,9 @@
 # Reporting Configuration Keys for Elevate24
 
-For Elevate24 Premium customers, you can send data from the Elevate24 application to a destination of your choice, while also disabling the logging of data to Jigsaw24.
+Elevate24 Premium customers can send data from the Elevate24 application to any destination you choose, while simultaneously disabling data logging to Jigsaw24.
 
 > [!IMPORTANT]
-> This is all done from the app, on device and does not go through or visable by Jigsaw24. 
+> This entire process is handled entirely within the app, on the device, and remains completely invisible to Jigsaw24 if disabled.
 
 > [!IMPORTANT]
 > These settings configure reporting for the Elevate24 Application only. If you are a premium customer and want to recieve data on what actions have taken place whilst elevated visit [here](/docs/Endpoint%20Secuity%20Reporting%20Configuration%20Keys.md)
