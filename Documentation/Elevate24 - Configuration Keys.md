@@ -362,7 +362,7 @@ For example, Joe.Bloggs-adm
 <string>5</string>
 ```
 ---
-### Use current username as admin
+### Show Admin Password Grace
 - **Availability:** Premium
 - **Type:** integer
 - **Default:** `0` 
