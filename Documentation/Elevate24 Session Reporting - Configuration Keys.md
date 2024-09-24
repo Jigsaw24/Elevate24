@@ -191,34 +191,4 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 
 ---
 
-### Filter Rules
-- **Availability:** Premium
-- **Type:** Array
-
-> [!NOTE]
-> Define which event types to log.
-
-
-```xml
-<key>filterRules</key>
-	<array>
-		<dict>
-			<key>sadgsdfgfdg</key>
-			<string>sdfgsdfgsfdg</string>
-            	</dict>
-	</array>
-```
-
----
-
-## Authorisation Rules
-
-### File Operation Rules
-- **Availability:** Premium
-- **Type:** Array
-
----
-
-### Execute Process Rules
-- **Availability:** Premium
-- **Type:** Array
+# More Coming Soon

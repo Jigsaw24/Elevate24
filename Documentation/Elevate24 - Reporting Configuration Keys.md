@@ -6,11 +6,9 @@ Elevate24 Premium customers can send data from the Elevate24 application to any 
 > This entire process is handled entirely within the app, on the device, and remains completely invisible to Jigsaw24 if disabled.
 
 > [!IMPORTANT]
-> These settings configure reporting for the Elevate24 Application only. If you are a premium customer and want to recieve data on what actions have taken place whilst elevated visit [here](/docs/Endpoint%20Secuity%20Reporting%20Configuration%20Keys.md)
+> These settings configure reporting for the Elevate24 Application only. If you are a premium customer and want to recieve data on what actions have taken place whilst elevated visit [here](/Documentation/Elevate24%20Session%20Reporting%20-%20Reporting%20Configuration%20Keys.md)
 
 ## SIEM 
-
-[!NOTE] add information here
 
 ### License Keys
 - **Availability:** Premium
@@ -31,6 +29,9 @@ Elevate24 Premium customers can send data from the Elevate24 application to any 
 <key>siemAuthToken</key>
 <string>”Token”</string>
 ```
+
+You may require a reporting schema for your SIEM solution. An example is included [here](/Documentation/Elevate24%20Reporting%20Schema.md)
+
 
 ---
 

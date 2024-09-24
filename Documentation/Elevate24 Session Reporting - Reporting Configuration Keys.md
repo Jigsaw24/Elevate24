@@ -5,3 +5,5 @@ For Elevate24 Premium customers, you can send data from the Elevate24 Endpoint S
 > [!IMPORTANT]
 > This is all done from the app, on device and does not go through or visable by Jigsaw24. 
 
+# More Coming Soon
+
