@@ -133,15 +133,19 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 ---
 ### Choice of times
 - **Availability:** Basic & Premium
-- **Type:** String
+- **Type:** array
 - **Default:** `1800` `3600` `7200` seconds
 
 > [!NOTE]
 > Change the choice of times available if `Enabletimelist` is `True`.
 
 ```xml
-<key>Sessiontime</key>
+<key>times</key>
+<array>
+<string>1800</string>
 <string>3600</string>
+<string>7200</string>
+</array>
 ```
 ---
 ### Choice of reasons
