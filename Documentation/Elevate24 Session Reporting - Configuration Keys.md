@@ -241,7 +241,7 @@ File open operations can be restricted to read only access where required.
 			<string>fgfgdh</string>
 		</dict>
 	</array>
-	```
+```
 
 ---
 
