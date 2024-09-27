@@ -1,7 +1,11 @@
 # Configuration Keys for Elevate24 Session Reporting
+
 The Keys included here are for the main Elevate24 Endpoint Security Extension. If you need to configure the Application please visit [HERE](/Documentation/Elevate24%20-%20Configuration%20Keys.md)
 
 - **Preference Domain:** com.jigsaw24.Elevate24SecurityExtension
+
+> [!IMPORTANT]
+> This feature is currently in preview. To gain access please contact Jigsaw24. 
 
 ## General Configuration
 ### Enable Recording
@@ -17,6 +21,21 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 <true/>
 ```
 ---
+
+### Enable Recording
+- **Availability:** Premium
+- **Type:** Boolean
+- **Default:** `false`
+
+> [!NOTE]
+> Set to `true` to enable sending of data to Jigsaw24 reporting portal.  
+
+```xml
+<key>UploadEventsToJigsaw</key>
+<true/>
+```
+---
+
 ### Disable all functionality
 - **Availability:** Premium
 - **Type:** Boolean
@@ -38,6 +57,9 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 > [!NOTE]
 > Deploys default rules to discard some events which can be considered noise.
 
+> [!IMPORTANT]
+> Add this key and set to `true` for all deployments. It will be changed to a default of `true` at a later date.
+
 ```xml
 <key>DefaultFilterRules</key>
 <true/>
@@ -49,7 +71,7 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 - **Default:** `false`
 
 > [!NOTE]
-> Deploys authorisation rules to attempt to stop the user making changes to Elevate24 Monitoring.
+> Deploys authorisation rules to prevent the user making changes to Elevate24.
 
 ```xml
 <key>SelfProtectionRules</key>
@@ -189,6 +211,64 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 	</array>
 ```
 
+--- 
+## Authorisation Rules
+
+### File Operation Rules
+- **Availability:** Premium
+- **Type:** Array
+
+> [!NOTE]
+> Rules to restrict file operations. Allow rules can be used in conjunction with block rules to allow a process to execute under the specified conditions. 
+File open operations can be restricted to read only access where required.
+
+
+```xml
+<key>FileOperationRules</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>allow</string>
+			<key>alwaysActive</key>
+			<true/>
+			<key>fileOperation</key>
+			<string>file:open</string>
+			<key>fileTargetPath</key>
+			<string>dhdfgh</string>
+			<key>signingID</key>
+			<string>dfghgfh</string>
+			<key>username</key>
+			<string>fgfgdh</string>
+		</dict>
+	</array>
+	```
+
 ---
 
-# More Coming Soon
+### Execute Process Rules
+- **Availability:** Premium
+- **Type:** Array
+
+> [!NOTE]
+> Rules to restrict execution of processes. Allow rules can be used in conjunction with block rules to allow a process to execute under the specified conditions. 
+Multiple arguments can be specified by seperating them with a comma.
+
+
+```xml
+<key>ExecuteProcessRules</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>block</string>
+			<key>alwaysActive</key>
+			<true/>
+			<key>matchingArgumentsContaining</key>
+			<string>Contains...</string>
+			<key>processPath</key>
+			<string>App/ Process Path</string>
+			<key>singingID</key>
+			<string>Signing ID of App/ Process</string>
+		</dict>
+	</array>
+	```
+---

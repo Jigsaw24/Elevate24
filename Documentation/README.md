@@ -33,4 +33,40 @@ Once you have a trial license and have configured Elevate24 to your liking, you 
 
 - [Elevate24 app reporting configuration](/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
 
+## Monitoring (Preview)
 
+Once you have a trial license or full premium license and have configured Elevate24 to your liking, you can proceed to set up monitoring as described below:
+
+>[!IMPORTANT]
+>Monitoring is currently in a preview phase and is offered on a customer-by-customer basis. For more detailed discussions, please contact Jigsaw24. [get in touch](https://www.jigsaw24.com/solutions/automation-and-tooling/elevate24)
+
+1. Add Session Monitoring Key to Elevate24 Configuration.
+
+   - **Type:** Boolean
+   - **Default:** `false`
+```xml
+<key>EnableSessionMonitoring</key> 
+<true/>
+```
+
+2. Add PPPC Profile for Elevate24SecurityExtension 
+   - com.jigsaw24.Elevate24SecurityExtension
+   - Full Disk Access
+   - [Jamf PPPC Mobile Config](/Elevate24/Template%20Profiles/Jamf-Elevate%2024%20-%20Session%20Monitoring%20-%20PPPC.mobileconfig)
+
+3. Add Config Profile for Elevate24 Security Extension starting with 
+   - [Template Profile](/Elevate24/Template%20Profiles/monitoring-com.jigsaw24.Elevate24SecurityExtension.plist)
+
+
+4. Install Elevate24 Security Extension pkg 
+
+5. Change any configuration desired. 
+
+   - [Elevate24 Security Extension Configuration](/Elevate24/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
+
+   - [Elevate24 Security Extension Reporting](/Elevate24/Documentation/Elevate24%20Session%20Reporting%20-%20Reporting%20Configuration%20Keys.md)
+
+6. View monitoring logs in your reporting solution of choice. 
+
+>[!INFO]
+>Some devices may require a restart before data is logged. 
