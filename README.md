@@ -25,7 +25,7 @@ If you are interested to learn more about **Premium** mode, arrange a demo with 
 
 - [Elevate24 Reporting Configuration](/Documentation/Elevate24%20-%20Reporting%20Configuration%20Keys.md)
 
-- [Elevate24 Monitoring Configuration (Preview)](/Elevate24/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
+- [Elevate24 Monitoring Configuration (Preview)](/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
 
 ---
 ## Marketplace Links
