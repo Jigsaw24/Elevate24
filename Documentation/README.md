@@ -52,19 +52,19 @@ Once you have a trial license or full premium license and have configured Elevat
 2. Add PPPC Profile for Elevate24SecurityExtension 
    - com.jigsaw24.Elevate24SecurityExtension
    - Full Disk Access
-   - [Jamf PPPC Mobile Config](/Elevate24/Template%20Profiles/Jamf-Elevate%2024%20-%20Session%20Monitoring%20-%20PPPC.mobileconfig)
+   - [Jamf PPPC Mobile Config](/Template%20Profiles/Jamf-Elevate%2024%20-%20Session%20Monitoring%20-%20PPPC.mobileconfig)
 
 3. Add Config Profile for Elevate24 Security Extension starting with 
-   - [Template Profile](/Elevate24/Template%20Profiles/monitoring-com.jigsaw24.Elevate24SecurityExtension.plist)
+   - [Template Profile](/Template%20Profiles/monitoring-com.jigsaw24.Elevate24SecurityExtension.plist)
 
 
 4. Install Elevate24 Security Extension pkg 
 
 5. Change any configuration desired. 
 
-   - [Elevate24 Security Extension Configuration](/Elevate24/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
+   - [Elevate24 Security Extension Configuration](/Documentation/Elevate24%20Session%20Reporting%20-%20Configuration%20Keys.md)
 
-   - [Elevate24 Security Extension Reporting](/Elevate24/Documentation/Elevate24%20Session%20Reporting%20-%20Reporting%20Configuration%20Keys.md)
+   - [Elevate24 Security Extension Reporting](/Documentation/Elevate24%20Session%20Reporting%20-%20Reporting%20Configuration%20Keys.md)
 
 6. View monitoring logs in your reporting solution of choice. 
 
