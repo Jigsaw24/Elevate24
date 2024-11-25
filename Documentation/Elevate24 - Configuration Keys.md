@@ -257,7 +257,7 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 
 ---
 ### Enable Apple Authentication
-- **Availability:** Premium
+- **Availability:** Basic & Premium (v2.1.3+ for basic)
 - **Type:** Boolean
 - **Default:** `false` 
 
