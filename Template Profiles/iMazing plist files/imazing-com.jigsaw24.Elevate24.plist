@@ -638,7 +638,7 @@
 			<key>pfm_name</key>
 			<string>enableAppleAuth</string>
 			<key>pfm_title</key>
-			<string>Apple Auth (Premium)</string>
+			<string>Apple Auth</string>
 			<key>pfm_type</key>
 			<string>boolean</string>
 		</dict>
