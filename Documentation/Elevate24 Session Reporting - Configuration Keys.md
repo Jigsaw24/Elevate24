@@ -234,11 +234,11 @@ File open operations can be restricted to read only access where required.
 			<key>fileOperation</key>
 			<string>file:open</string>
 			<key>fileTargetPath</key>
-			<string>dhdfgh</string>
+			<string>/Users/Shared/Folder/ImportantScript.sh</string>
 			<key>signingID</key>
-			<string>dfghgfh</string>
+			<string>com.vendor.app</string>
 			<key>username</key>
-			<string>fgfgdh</string>
+			<string>Admin</string>
 		</dict>
 	</array>
 ```
@@ -261,13 +261,13 @@ Multiple arguments can be specified by seperating them with a comma.
 			<key>action</key>
 			<string>block</string>
 			<key>alwaysActive</key>
-			<true/>
+			<false/>
 			<key>matchingArgumentsContaining</key>
-			<string>Contains...</string>
+			<string></string>
 			<key>processPath</key>
-			<string>App/ Process Path</string>
+			<string>/Applications/Vendor App.app/Contents/MacOS/Vendor</string>
 			<key>singingID</key>
-			<string>Signing ID of App/ Process</string>
+			<string>com.vendor.app</string>
 		</dict>
 	</array>
 	```
