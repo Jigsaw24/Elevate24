@@ -53,7 +53,7 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 > [!NOTE]
 > Hide the "Powered by Jigsaw24 Logo" in the bottom right handside of the application.
 ```xml
-<key>iconPath</key>
+<key>HideLogo</key>
 <true/>
 ```
 ---
