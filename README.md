@@ -1,7 +1,12 @@
 # Elevate24
+
+[!NOTE] New UI now available for Elevate24 Version 2.2.0+. Enable it 
+
 Elevate24 is a macOS Privileged Access Management solution that provides IT teams with visibility and monitoring capabilities to ensure compliance. It allows users to request limited privileges for a specific period, improving security and end-user experience.
 
 Elevate24 is available in **Basic** and **Premium** modes. The **Basic** mode works out of the box and does not require a license. To get started, simply install Elevate24 and follow the Getting Started link below.
+
+
 
 ### [Getting Started](/Documentation/README.md)
 ### [Watch Video](https://www.youtube.com/watch?v=J8nJtw9G3JI)

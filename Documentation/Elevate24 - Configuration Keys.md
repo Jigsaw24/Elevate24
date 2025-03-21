@@ -27,9 +27,21 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 
 ---
 
+## Elevate24 Design
+### NewUI
+- **Availability:** Basic & Premium.
+- **Version:** 2.2.0+
+- **Type:** Boolean
+- **Default:** `false` 
+ 
+> [!NOTE]
+> Change Elevate24 to show to the new UI. The new UI will be default in a later version of Elevate24. 
 
-
-
+```xml
+<key>newUI</key>
+<true/>
+```
+---
 
 
 ## Branding
@@ -68,17 +80,29 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 <key>heading</key>
 <string>Elevate24</string>
 ```
+
+---
+### Sub Heading
+- **Availability:** Basic & Premium
+- **Version:** 2.2.0+
+- **Type:** String
+
+> [!NOTE]
+>Change the standard text "Privilege Access Management" under the Elevate24 header. 
+```xml
+<key>subheading</key>
+<string>Privilege Access Management</string>
+```
 ---
 ### Message
 - **Availability:** Basic & Premium
 - **Type:** String
 
 > [!NOTE]
->Change the standard messaging in the application. Use '\\n' for spacing lines
+>Change the standard messaging in the application. 
 ```xml
 <key>message</key>
-<string>Use of admin accounts is recorded for security compliance.
-\n\n Select why you require admin privileges\n and select how long for</string>
+<string>Use of admin accounts is recorded for security compliance.</string>
 ```
 ---
 ### Main Button
@@ -176,6 +200,36 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 <true/>
 ```
 
+---
+### Extend Session
+- **Availability:** Premium
+- **Version:** 2.2.0+
+- **Type:** Boolean
+- **Default:** `false` 
+
+> [!NOTE]
+> Will disable the ability to extend the session.
+
+```xml
+<key>blockExtend</key>
+<true/>
+```
+
+---
+### Set Session Expiry Notification
+- **Availability:** Premium
+- **Version:** 2.2.0+
+- **Type:** integer
+- **Default:** `0` 
+
+> [!NOTE]
+> Set the number of minutes before the application notifies the user that the session is expiring. 
+
+```xml
+<key>sessionExpiryReminder</key>
+<integer>2</integer>
+```
+---
 
 
 ---
