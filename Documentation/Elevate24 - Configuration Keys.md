@@ -302,7 +302,7 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 - **Default:** `false` 
 
 > [!NOTE]
-> Add More Info! 
+> Elevate24 will attempt to kill open terminal session logged in as root. 
 
 ```xml
 <key>killterminalsessions</key>
