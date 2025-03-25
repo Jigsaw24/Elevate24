@@ -97,7 +97,7 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 - **Default:** `false`
 
 > [!NOTE]
-> Deploys authorisation rules to attempt to stop the user making changes to Elevate24 Monitoring.
+> Number of days a local archive is kept. 
 
 ```xml
 <key>MaxArchiveAge</key>
