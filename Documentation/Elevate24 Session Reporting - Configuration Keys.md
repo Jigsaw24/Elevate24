@@ -71,7 +71,7 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 - **Default:** `false`
 
 > [!NOTE]
-> Deploys authorisation rules to prevent the user making changes to Elevate24.
+> Deploys authorisation rules to prevent the user making changes to Elevate24. 
 
 ```xml
 <key>SelfProtectionRules</key>
@@ -207,6 +207,125 @@ The Keys included here are for the main Elevate24 Endpoint Security Extension. I
 		<dict>
 			<key>eventType</key>
 			<string>Process:Exec</string>
+		</dict>
+	</array>
+```
+
+--- 
+## Filter Rules
+
+- **Availability:** Premium
+- **Type:** Array
+
+> [!NOTE]
+> Filter out the collection of data from unwanted path locations or from specific software. Useful for filtering out noisey applications such as Endpoint Protection and Response or Network solutions. 
+
+```xml
+<key>filterRules</key>
+	<array>
+		<dict>
+			<key>eventType</key>
+			<string>File:Write</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>File:Unlink</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>File:Clone</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>File:CopyFile</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>User:Create</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>User:Delete</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>Profile:Add</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>Profile:Remove</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>LaunchItem:Add</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>LaunchItem:Remove</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>Sudo</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>Process:Exec</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
+		</dict>
+		<dict>
+			<key>eventType</key>
+			<string>All</string>
+			<key>path</key>
+			<string>/Location/Path</string>
+			<key>signingId</key>
+			<string>com.company.software</string>
 		</dict>
 	</array>
 ```
