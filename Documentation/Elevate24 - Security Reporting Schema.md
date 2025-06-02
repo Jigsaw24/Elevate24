@@ -7,9 +7,6 @@ The below reporting schema is to be used on customer owned SIEM solutions. This 
 
 ```json
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "EndPointSecurityEvent",
-  "type": "object",
   "properties": {
     "id": {
       "type": "string",
