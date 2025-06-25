@@ -405,19 +405,19 @@ For example, Joe.Bloggs-adm
 ```
 ```xml
 <key>PasswordUppercase</key>
-<string>5</string>
+<integer>5</integer>
 ```
 ```xml
 <key>PasswordLowercase</key>
-<string>5</string>
+<integer>5</integer>
 ```
 ```xml
 <key>PasswordNumbers</key>
-<string>5</string>
+<integer>5</integer>
 ```
 ```xml
 <key>PasswordSymbols</key>
-<string>5</string>
+<integer>5</integer>
 ```
 ---
 ### Show Admin Password Grace
