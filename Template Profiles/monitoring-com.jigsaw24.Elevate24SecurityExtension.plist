@@ -6,8 +6,6 @@
 	<true/>
 	<key>UploadEventsToJigsaw</key>
     <true/>
-    <key>RecordingEnabled</key>
-    <true/>
 	<key>EventsToLog</key>
 	<array>
 		<dict>
