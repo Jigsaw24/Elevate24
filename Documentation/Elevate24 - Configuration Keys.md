@@ -70,7 +70,7 @@ The Keys included here are for the main Elevate24 Application. If you need to co
 ```
 ---
 ### Heading
-- **Availability:** Basic & Premium
+- **Availability:** Premium
 - **Type:** String
 - **Default:** `Elevate24`
 
