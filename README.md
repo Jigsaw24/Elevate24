@@ -5,7 +5,7 @@ Elevate24 is a macOS Privileged Access Management solution that provides IT team
 Elevate24 is available in **Basic** and **Premium** modes. The **Basic** mode works out of the box and does not require a license. To get started, simply install Elevate24 and follow the Getting Started link below.
 
 ## [DEMO VIDEO](https://jigsaw24.storylane.io/share/mtzd6xwhhnes)
-## [Getting Started](https://docs.jigsaw24.com/Elevate24/getting-started.html)
+## [Getting Started](https://docs.jigsaw24.com/Elevate24/)
 
 ---
 
