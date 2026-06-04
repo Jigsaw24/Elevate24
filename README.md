@@ -6,6 +6,7 @@ Elevate24 is available in **Basic** and **Premium** modes. The **Basic** mode wo
 
 ## [DEMO VIDEO](https://jigsaw24.storylane.io/share/mtzd6xwhhnes)
 ## [Getting Started](https://docs.jigsaw24.com/Elevate24/)
+## [Latest release](https://github.com/Jigsaw24/Elevate24/releases)
 
 ---
 
